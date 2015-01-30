@@ -38,7 +38,9 @@ gulp.task('assets', function() {
   // Styles, copy and move an updated version from bower repository
   gulp.src([
     $bower + '/foundation/css/foundation.css',
+    $bower + '/foundation/css/foundation.css.map',
     $bower + '/foundation/css/normalize.css',
+    $bower + '/foundation/css/normalize.css.map',
     $bower + '/basscss/css/basscss.css',
     $bower + '/fontawesome/css/font-awesome.min.css'
     ])

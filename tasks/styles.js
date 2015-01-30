@@ -14,7 +14,7 @@ function handleError(err) {
 }
 
 gulp.task('styles', function() {
-  gulp.src(['src/assets/css/*.css'])
+  gulp.src(['src/assets/css/*'])
   .pipe(gulp.dest('dist/assets/css'))
   .on('error', handleError)
   .pipe($.size());
