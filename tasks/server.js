@@ -7,7 +7,7 @@ var $ = require('gulp-load-plugins')({
 });
 
 var $bower = 'bower_components/',
-    $root = 'dist',
+    $root = 'src',
     $port = 8888;
 
 function handleError(err) {
